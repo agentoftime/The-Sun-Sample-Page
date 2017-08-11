@@ -1,0 +1,28 @@
+html, body {
+	background-color: #BCC1C0;
+	font-family: "lucida console", monospace;
+}
+h1, h2, h4 {
+	color: #8E1303;
+}
+h3 {
+	color: #03158E;
+}
+th {
+	color: #03158E;
+}
+table {
+	border-collapse: collapse;
+	width: 40%;
+}
+td, tr, th {
+	border: 2px solid black; 
+	text-align: left; 
+	padding: 5px;
+}
+tr:nth-child(even) {
+	background-color: darkgrey;
+}
+.list {
+	margin-left: 30px;
+}

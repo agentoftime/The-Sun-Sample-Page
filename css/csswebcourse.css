@@ -1,15 +1,16 @@
 html, body {
 	background-color: #BCC1C0;
-	font-family: "lucida console", monospace;
+	font-family: 'Roboto Mono', monospace;
 }
 h1, h2, h4 {
 	color: #8E1303;
 }
 h3 {
-	color: #03158E;
+	color: #AB4903;
 }
 th {
-	color: #03158E;
+	background-color: #4F4F4F;
+	color: #D1D0D2;
 }
 table {
 	border-collapse: collapse;
@@ -23,6 +24,13 @@ td, tr, th {
 tr:nth-child(even) {
 	background-color: darkgrey;
 }
-.list {
+div.list {
 	margin-left: 30px;
+}
+div.stages {
+	background-color: #272627;
+	color: #B6B6B6;
+	margin: 20px 0 20px 0;
+	padding: 20px;
+	border-radius: 50px;
 }
